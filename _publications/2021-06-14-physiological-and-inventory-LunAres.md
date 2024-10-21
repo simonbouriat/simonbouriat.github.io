@@ -1,6 +1,7 @@
 ---
 title: "Physiological and Inventory Data of Crews of ARES-III and LEARN Analog Missions in the LunAres Habitat"
 collection: publications
+category: conferences
 permalink: /publication/2021-06-14-physiological-and-inventory-LunAres
 excerpt: 'This paper is a report of the environmental and physiological data from two analog missions that occurred during the summer of 2018 - a Mars analog mission Ares-III and a Lunar analog mission LEARN, both conducted in the same isolated habitat : the Lunares Research Base based in Piła, Poland.'
 date: 2021-06-14
