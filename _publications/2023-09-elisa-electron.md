@@ -3,6 +3,7 @@ title: "Reconstruction of electron precipitation spectra at the top of the upper
 collection: publications
 permalink: /publication/2023-09-elisa-electron
 excerpt: ''
+category: manuscripts
 date: 2023-12-13
 venue: 'Journal of Space Weather and Space Climate'
 paperurl: 'https://doi.org/10.1051/swsc/2023028'
