@@ -11,7 +11,7 @@ redirect_from:
 
 <div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif; line-height: 1.5; color: #333;">
   
-  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #87CEEB;">Work Experience</h2>  
+  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #C0C0C0;">Work Experience</h2>  
   <h3 style="margin-bottom: 0.1em;">SpaceAble | Paris, France</h3>  
   <strong>Space Weather Analyst & Data Scientist</strong>  
   <em style="color: #555;">2019 - 2024</em>  
@@ -29,7 +29,7 @@ redirect_from:
     <li>Developed a Bayesian model validation framework for complex systems using data from the James Webb Space Telescope.</li>  
   </ul>
 
-  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #87CEEB;">Education</h2>  
+  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #C0C0C0;">Education</h2>  
   <h3 style="margin-bottom: 0.1em;">Université Grenoble-Alpes | IPAG | GipsaLab | Grenoble, France</h3>  
   <strong>PhD - Artificial Intelligence Applied to Space Weather</strong>  
   <em style="color: #555;">2020 - 2023</em>  
@@ -58,7 +58,7 @@ redirect_from:
     <li>Explored the philosophy of physics, decision theory, and the philosophy of social science.</li>  
   </ul>
   
-  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #87CEEB;">Publications</h2>  
+  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #C0C0C0;">Publications</h2>  
   <ul style="margin: 0; padding: 0 0 1em 1.5em; list-style-type: disc;">
     <li>Bouriat, S., Wing, S., Barthélémy, M. (2023). Electron Aurora and Polar Rain Dependencies on Solar Wind Parameters, <em>Journal of Geophysical Research: Space Physics</em>. <a href="https://doi.org/10.1029/2023JA031598" style="color: #87CEEB;">DOI</a></li>
     <li>Robert, E., et al. (2023). Reconstruction of electron precipitation spectra using auroral images, <em>J. Space Weather Space Clim.</em>, 13(30). <a href="https://doi.org/10.1051/swsc/2023028" style="color: #87CEEB;">DOI</a></li>
@@ -67,7 +67,7 @@ redirect_from:
     <li>Bouriat, S., Poliacek, M., Smith, J. (2021). Crew data from ARES-III and LEARN analog missions, Presented at GLEX 2021. <a href="https://www.researchgate.net/publication/356471453" style="color: #87CEEB;">ResearchGate Link</a></li>
   </ul>
 
-  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #87CEEB;">Honours & Awards</h2>  
+  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #C0C0C0;">Honours & Awards</h2>  
   <ul style="margin: 0; padding: 0 0 1em 1.5em; list-style-type: disc;">
     <li><strong>AGATA Mentoring Programme</strong> for Early Career Scientists, 2024</li>  
     <li><strong>Mayoux-Dauriac Prize</strong>, won for contributions to science and engineering through the Master's thesis project</li>  
@@ -75,7 +75,7 @@ redirect_from:
     <li><strong>Winner of The Mars Generation Class of 2019</strong>: 24 Under 24 Leaders and Innovators in STEAM and Space Award</li>  
   </ul>
 
-  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #87CEEB;">Interpersonal Skills</h2>  
+  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #C0C0C0;">Interpersonal Skills</h2>  
   <ul style="margin: 0; padding: 0 0 1em 1.5em; list-style-type: disc;">
     <li><strong>Leadership</strong>: Headed the “Student Aerospace Challenge” team (1 year - 2016)</li>  
     <li><strong>Team spirit and collaboration</strong>: Coordinated teamworks for a year preparing experiments for the Mars analog mission in Utah</li>  
@@ -84,7 +84,7 @@ redirect_from:
     <li><strong>Public speaking</strong>: Appeared in more than 50 media articles on analog missions & guest speaker on French National TV & National Radio (BFM, France Inter)</li>  
   </ul>
 
-  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #87CEEB;">Other Relevant Trainings</h2>  
+  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #C0C0C0;">Other Relevant Trainings</h2>  
   <ul style="margin: 0; padding: 0 0 1em 1.5em; list-style-type: disc;">
     <li><strong>Cybersecurity</strong>, MOOC of the ANSSI (French Agence Nationale de la Sécurité des Systèmes d'Information), in 2023.</li>  
     <li><strong>Machine Learning</strong> MOOC hosted by Stanford University, in 2020.</li>  
@@ -93,7 +93,7 @@ redirect_from:
     <li><strong>Mars Analog Missions</strong>: Data Officer in the Lunares Station in Pila, Poland. Health and Safety Officer in the Mars Desert Research Station in Utah, USA.</li>  
   </ul>
 
-  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #87CEEB;">Other Skills and Hobbies</h2>  
+  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #C0C0C0;">Other Skills and Hobbies</h2>  
   <ul style="margin: 0; padding: 0 0 1em 1.5em; list-style-type: disc;">
     <li>Private Pilot License (Ongoing)</li>  
     <li>First Aid Certificate (French PSC1 - Prévention et Secours Civiques de niveau 1)</li>  
