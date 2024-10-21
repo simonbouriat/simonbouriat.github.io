@@ -9,21 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-## Core Competencies  
-- Aerospace Engineering  
-- Data Analysis & Machine Learning  
-- Deep Learning & Neural Networks  
-- Solar Wind & Plasmas  
-- Space Weather Forecasting  
-- Systems Engineering  
-
----
-
 ## Work Experience  
-
 ### SpaceAble | Paris, France  
 **Space Weather Analyst & Data Scientist**  
-*2019 - Present*  
+*2019 - 2024*  
 - Specialized in solar activity and its impacts on space systems.  
 - Led the development of the WISDM (Space Weather Impacts and Spacecraft Damages Module) project.  
 - Coordinated the Machine Learning division for space data analysis.  
@@ -37,9 +26,8 @@ redirect_from:
 ---
 
 ## Education  
-
 ### Université Grenoble-Alpes | IPAG | GipsaLab | Grenoble, France  
-**PhD - Artificial Intelligence Applied to Space Weather**  
+#### PhD - Artificial Intelligence Applied to Space Weather  
 *2020 - 2023*  
 - Developed machine learning models (NN, RNN, LSTM, TCN) to forecast low energy particle fluxes in Low Earth Orbit using data from Lagrange 1 and DMSP satellites.  
 
@@ -95,6 +83,16 @@ redirect_from:
 - **English**: Fluent (TOEFL: 107/120)  
 - **Spanish**: Good (B2)  
 - **Russian**: Basics (A1)  
+
+---
+
+## Core Competencies  
+- Aerospace Engineering  
+- Data Analysis & Machine Learning  
+- Deep Learning & Neural Networks  
+- Solar Wind & Plasmas  
+- Space Weather Forecasting  
+- Systems Engineering  
 
 ---
 
