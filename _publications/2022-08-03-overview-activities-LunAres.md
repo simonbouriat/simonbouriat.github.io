@@ -1,6 +1,7 @@
 ---
 title: "Overview of Activities: ARES-III and LEARN Analog Missions in the LunAres Hab"
 collection: publications
+category: manuscripts
 permalink: /publication/2022-08-03-overview-activities-LunAres
 excerpt: ' This paper provides an overview of the experiments conducted during two separate 15-day missions—one Martian and one Lunar—conducted in the LunAres Research Base in Piła, Poland, in 2018. For each piece of research, an overview of the background, methodology, results, and conclusions is given, referencing the resulting papers.'
 date: 2022-08-03
