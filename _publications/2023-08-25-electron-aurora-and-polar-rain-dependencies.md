@@ -1,6 +1,7 @@
 ---
 title: "Towards an AI-based understanding of the solar wind: a critical data analysis of ACE data"
 collection: publications
+category: manuscripts
 permalink: /publication/2023-08-25-electron-aurora-and-polar-rain-dependencies
 excerpt: ''
 date: 2023-08-25
