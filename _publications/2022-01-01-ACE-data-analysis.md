@@ -1,6 +1,7 @@
 ---
 title: "Towards an AI-based understanding of the solar wind: a critical data analysis of ACE data"
 collection: publications
+category: manuscripts
 permalink: /publication/2022-01-01-ACE-data-analysis
 excerpt: 'This paper is an analysis of a largely used dataset: Level-2 Advanced Composition Explorer’s SWEPAM and MAG measurements from 1998 to 2021 by the ACE Science Center. This work contains guidelines and highlights issues in the ACE data that are likely to be found in other space weather datasets: missing values, inconsistency in distributions, hidden information in statistics, etc.'
 date: 2022-11-23
