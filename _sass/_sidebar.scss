@@ -33,7 +33,8 @@
 
   @include breakpoint($x-large) {
     max-width: $sidebar-link-max-width;
-    padding-right: 0;
+    padding-right: 10px; /* small right margin */
+    padding-left: 10px;  /* small left margin */
   }
 
   h2, h3, h4, h5, h6 {
@@ -199,7 +200,8 @@
     display: block;
     position: relative;
     margin: 0;
-    padding: 0;
+    padding-left: 8px;  /* add breathing room from left edge */
+    padding-right: 8px; /* small right padding */
     border: 0;
     background: transparent;
     box-shadow: none;
