@@ -23,6 +23,14 @@ a {
   border-bottom: 1px solid $border-color;
 }
 
+/* Aurora banner gradient: homepage only when used */
+.aurora-banner {
+  background: radial-gradient(1200px 200px at 10% 20%, rgba(34,197,94,0.20), transparent 60%),
+              radial-gradient(800px 160px at 80% 0%, rgba(59,130,246,0.12), transparent 60%),
+              radial-gradient(1000px 240px at 50% 100%, rgba(16,185,129,0.18), transparent 60%),
+              linear-gradient(180deg, rgba(3,7,5,0.85), rgba(3,7,5,0.85));
+}
+
 /* Prefer dark mode palette without breaking theme */
 @media (prefers-color-scheme: dark) {
   :root {

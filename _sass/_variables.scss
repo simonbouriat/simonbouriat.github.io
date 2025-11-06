@@ -61,18 +61,18 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #ffffff;
-$background-color           : #fcfcfd;
-$code-background-color      : #f6f8fa;
+$body-color                 : #0f1412;
+$background-color           : #f5f8f6;
+$code-background-color      : #eff4f1;
 $code-background-color-dark : $light-gray;
-$text-color                 : #2a2f35;
-$border-color               : #e8ebee;
+$text-color                 : #1d2a24;
+$border-color               : #dbe6e0;
 
-$primary-color              : #3451b2;
+$primary-color              : #1f6f54; /* deep calming green */
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #3867ff;
+$info-color                 : #1b8a6b; /* secondary green */
 
 /* brands */
 $behance-color              : #1769FF;
@@ -105,8 +105,8 @@ $xing-color                 : #006567;
 $link-color                 : $info-color;
 $link-color-hover           : mix(#000, $link-color, 20%);
 $link-color-visited         : mix(#fff, $link-color, 15%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 15%);
+$masthead-link-color        : mix(#000, $primary-color, 10%);
+$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
 
 /*
