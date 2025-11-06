@@ -1,0 +1,55 @@
+/*
+   Site-specific aesthetic tweaks
+   Keep overrides small and theme-friendly
+*/
+
+/* Improve link styling */
+a {
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1.5px;
+}
+
+/* Card-like items (archives, posts, portfolio) */
+.archive__item,
+.page,
+.page__content,
+.sidebar {
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+}
+
+/* Masthead spacing + subtle divider */
+.masthead {
+  border-bottom: 1px solid $border-color;
+}
+
+/* Prefer dark mode palette without breaking theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #0f1216;
+    color: #e6e9ef;
+  }
+
+  .page,
+  .page__content,
+  .archive__item,
+  .sidebar {
+    background: #171a20;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+    border-color: rgba(255,255,255,0.06);
+  }
+
+  .masthead {
+    background: #0f1216;
+    border-color: rgba(255,255,255,0.08);
+  }
+
+  a { color: lighten($link-color, 10%); }
+  a:hover { color: lighten($link-color-hover, 10%); }
+}
+
+
