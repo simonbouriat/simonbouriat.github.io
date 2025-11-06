@@ -9,6 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="align-center" style="margin: 1.5rem 0 2rem;">
+  <a class="btn btn--primary btn--large" href="{{ '/files/Simon_Bouriat_CV.pdf' | relative_url }}" download>
+    <i class="fas fa-file-pdf" style="margin-right: .5em;"></i>
+    Download CV (PDF)
+  </a>
+</div>
+
 <div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif; line-height: 1.5; color: #333;">
   
   <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #C0C0C0;">Work Experience</h2>  
