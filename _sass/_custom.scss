@@ -47,33 +47,55 @@ a {
   pointer-events: none; /* ensure sidebar remains interactive above */
 }
 
-/* Prefer dark mode palette without breaking theme */
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
-  }
-
-  body {
-    background-color: #0f1216;
-    color: #e6e9ef;
-  }
+/* Dark mode styles - activated via .dark-mode class on body */
+body.dark-mode {
+  background-color: #0f1412;
+  color: #e6e9ef;
 
   .page,
   .page__content,
-  .archive__item,
+  .archive__item {
+    background: transparent;
+    color: #e6e9ef;
+  }
+
   .sidebar {
-    background: #171a20;
+    background-color: #171a20;
     box-shadow: 0 6px 18px rgba(0,0,0,0.35);
     border-color: rgba(255,255,255,0.06);
   }
 
   .masthead {
-    background: #0f1216;
+    background: #0f1412;
     border-color: rgba(255,255,255,0.08);
+    color: #e6e9ef;
   }
 
-  a { color: lighten($link-color, 10%); }
-  a:hover { color: lighten($link-color-hover, 10%); }
+  .masthead a {
+    color: #a8d5ba;
+  }
+
+  .masthead a:hover {
+    color: #c8e5d4;
+  }
+
+  a {
+    color: #5fb896;
+  }
+
+  a:hover {
+    color: #7dd4b0;
+  }
+
+  .dark-mode-toggle {
+    border-color: rgba(255,255,255,0.2);
+    color: #e6e9ef;
+
+    &:hover {
+      background: rgba(255,255,255,0.1);
+      border-color: #5fb896;
+    }
+  }
 }
 
 /* Masonry gallery for Photos page */

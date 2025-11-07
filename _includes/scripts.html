@@ -1,3 +1,31 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+  // Dark mode toggle functionality
+  (function() {
+    const toggle = document.getElementById('dark-mode-toggle');
+    const body = document.body;
+    
+    // Check for saved preference or default to light mode
+    const darkMode = localStorage.getItem('darkMode') === 'true';
+    
+    // Apply saved preference
+    if (darkMode) {
+      body.classList.add('dark-mode');
+    }
+    
+    // Toggle function
+    function toggleDarkMode() {
+      body.classList.toggle('dark-mode');
+      const isDark = body.classList.contains('dark-mode');
+      localStorage.setItem('darkMode', isDark);
+    }
+    
+    // Add click event
+    if (toggle) {
+      toggle.addEventListener('click', toggleDarkMode);
+    }
+  })();
+</script>
+
 {% include analytics.html %}
