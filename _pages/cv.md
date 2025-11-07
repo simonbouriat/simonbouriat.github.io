@@ -12,11 +12,11 @@ redirect_from:
 <div class="align-center" style="margin: 1.5rem 0 2rem;">
   <a class="btn btn--primary btn--large" href="{{ '/files/Simon_Bouriat_CV.pdf' | relative_url }}" download>
     <i class="fas fa-file-pdf" style="margin-right: .5em;"></i>
-    Download CV (PDF)
+    Download (PDF)
   </a>
 </div>
 
-<div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif; line-height: 1.5; color: #333;">
+<div style="cv-container">
   
   <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #C0C0C0;">Work Experience</h2>  
   <h3 style="margin-bottom: 0.1em;">SpaceAble | Paris, France</h3>  
@@ -65,15 +65,6 @@ redirect_from:
     <li>Explored the philosophy of physics, decision theory, and the philosophy of social science.</li>  
   </ul>
   
-  <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #C0C0C0;">Publications</h2>  
-  <ul style="margin: 0; padding: 0 0 1em 1.5em; list-style-type: disc;">
-    <li>Bouriat, S., Wing, S., Barthélémy, M. (2023). Electron Aurora and Polar Rain Dependencies on Solar Wind Parameters, <em>Journal of Geophysical Research: Space Physics</em>. <a href="https://doi.org/10.1029/2023JA031598" style="color: #87CEEB;">DOI</a></li>
-    <li>Robert, E., et al. (2023). Reconstruction of electron precipitation spectra using auroral images, <em>J. Space Weather Space Clim.</em>, 13(30). <a href="https://doi.org/10.1051/swsc/2023028" style="color: #87CEEB;">DOI</a></li>
-    <li>Bouriat, S., Vandame, P., Barthelemy, M., Chanussot, J. (2022). AI-based analysis of solar wind: ACE data, <em>Frontiers in Astronomy and Space Sciences</em>. <a href="https://doi.org/10.3389/fspas.2022.980759" style="color: #87CEEB;">DOI</a></li>
-    <li>Bouriat, S., Poliacek, M., Smith, J. (2022). ARES-III and LEARN Analog Missions Overview, <em>SPACE: SCIENCE & TECHNOLOGY</em>. <a href="https://doi.org/10.34133/2022/9763959" style="color: #87CEEB;">DOI</a></li>
-    <li>Bouriat, S., Poliacek, M., Smith, J. (2021). Crew data from ARES-III and LEARN analog missions, Presented at GLEX 2021. <a href="https://www.researchgate.net/publication/356471453" style="color: #87CEEB;">ResearchGate Link</a></li>
-  </ul>
-
   <h2 style="font-size: 1.5em; border-bottom: 2px solid #C0C0C0; padding-bottom: 0.2em; color: #C0C0C0;">Honours & Awards</h2>  
   <ul style="margin: 0; padding: 0 0 1em 1.5em; list-style-type: disc;">
     <li><strong>AGATA Mentoring Programme</strong> for Early Career Scientists, 2024</li>  

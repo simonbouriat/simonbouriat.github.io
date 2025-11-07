@@ -5,9 +5,16 @@
 
 /* Improve link styling */
 a {
-  text-underline-offset: 2px;
-  text-decoration-thickness: 1.5px;
+  text-decoration: none !important;
+  color: $info-color;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: lighten($info-color, 10%) !important;
+    text-decoration: none !important;
+  }
 }
+
 
 /* Keep smoothing only for the left profile sidebar */
 .sidebar {
@@ -25,10 +32,52 @@ a {
   box-shadow: none;
 }
 
+/* Custom container for the CV page */
+.cv-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1em;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+
+  ul {
+    padding-left: 1em;          // rapproche les puces du texte
+    margin: 0.25em 0;            // réduit l’espace au-dessus et en-dessous
+    list-style-position: inside; // puces plus proches du texte
+  }
+
+  li {
+    margin-bottom: 0.25em;       // espace entre chaque item
+  }
+
+  h2, h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+}
+
+
+
 /* Masthead spacing + subtle divider */
 .masthead {
   border-bottom: 1px solid $border-color;
 }
+
+/* --------------------------------------------------------------------------
+Primary button customization
+-------------------------------------------------------------------------- */
+
+.btn--primary {
+  background-color: darken($primary-color, 15%); // slightly darker base
+  color: #fff;
+  font-weight: normal;                          // remove bold
+
+  &:hover {
+    background-color: mix(white, #000, 20%);
+  }
+}
+  
 
 /* Aurora banner gradient: homepage only when used */
 .aurora-banner {

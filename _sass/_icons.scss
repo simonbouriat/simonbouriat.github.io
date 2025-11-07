@@ -1,0 +1,40 @@
+/* ==========================================================================
+   ICONS (PDF / LINK) - liste de publications
+   ========================================================================== */
+
+// Cible les liens contenant les icônes dans les listes
+ul li a[href*="/files/"],
+ul li a[href*="doi.org"],
+ul li a[href*="researchgate.net"] {
+  text-decoration: none;       // supprime le soulignement
+  display: inline-flex;         // aligne bien les icônes et le texte
+  align-items: center;          // centre verticalement
+}
+
+// Style commun aux icônes
+.fa-link,
+.fa-file-pdf {
+  font-size: 0.9em;
+  vertical-align: middle;
+  margin-left: 0.4em;          // espace entre les icônes
+  opacity: 0.85;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+// Lien externe (DOI / ResearchGate)
+.fa-link {
+  color: $info-color;          // bleu info du thème
+  &:hover {
+    opacity: 1;
+    color: lighten($info-color, 10%);
+  }
+}
+
+// PDF
+.fa-file-pdf {
+  color: $danger-color;        // rouge danger du thème
+  &:hover {
+    opacity: 1;
+    color: lighten($danger-color, 10%);
+  }
+}
