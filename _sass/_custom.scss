@@ -9,13 +9,20 @@ a {
   text-decoration-thickness: 1.5px;
 }
 
-/* Card-like items (archives, posts, portfolio) */
-.archive__item,
-.page,
-.page__content,
+/* Keep smoothing only for the left profile sidebar */
 .sidebar {
   border-radius: $border-radius;
   box-shadow: $box-shadow;
+}
+
+/* Remove card edges/shadows from main content and archive items */
+.page,
+.page__content,
+.archive__item {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 /* Masthead spacing + subtle divider */
@@ -25,10 +32,19 @@ a {
 
 /* Aurora banner gradient: homepage only when used */
 .aurora-banner {
-  background: radial-gradient(1200px 200px at 10% 20%, rgba(34,197,94,0.20), transparent 60%),
-              radial-gradient(800px 160px at 80% 0%, rgba(59,130,246,0.12), transparent 60%),
-              radial-gradient(1000px 240px at 50% 100%, rgba(16,185,129,0.18), transparent 60%),
-              linear-gradient(180deg, rgba(3,7,5,0.85), rgba(3,7,5,0.85));
+  /* Use provided image with a subtle dark overlay for text contrast */
+  background:
+    linear-gradient(180deg, rgba(3,7,5,0.55), rgba(3,7,5,0.55)),
+    url('/images/aurora-banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* full-bleed under the fixed sidebar */
+  position: relative;
+  z-index: 0;           /* sidebar has higher z-index */
+  width: 100vw;         /* span full viewport */
+  margin-left: calc(50% - 50vw); /* escape container to full-bleed */
+  pointer-events: none; /* ensure sidebar remains interactive above */
 }
 
 /* Prefer dark mode palette without breaking theme */
@@ -58,6 +74,41 @@ a {
 
   a { color: lighten($link-color, 10%); }
   a:hover { color: lighten($link-color-hover, 10%); }
+}
+
+/* Masonry gallery for Photos page */
+.masonry {
+  column-gap: 12px;
+  column-count: 1;
+
+  @include breakpoint($small) { column-count: 2; }
+  @include breakpoint($medium) { column-count: 3; }
+  @include breakpoint($large) { column-count: 3; }
+  @include breakpoint($x-large) { column-count: 4; }
+}
+
+.masonry__item {
+  display: inline-block;
+  margin: 0 0 12px;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.masonry__item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Photos page: make masthead transparent so it visually disappears over photos */
+.photos .masthead {
+  background: transparent;
+}
+
+/* Ensure photos content starts below the fixed masthead */
+.photos #main {
+  padding-top: calc(#{$masthead-height} + 12px);
 }
 
 

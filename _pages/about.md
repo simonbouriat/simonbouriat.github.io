@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <!-- Aurora banner: homepage only -->
-<div class="aurora-banner" style="height: 120px; border-radius: 12px; margin-bottom: 1.25rem;"></div>
+<div class="aurora-banner" style="height: 120px; margin-bottom: 1.25rem;"></div>
 
 ## What I'm up to
 

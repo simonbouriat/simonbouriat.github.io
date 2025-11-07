@@ -6,8 +6,8 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 1.25em;  /* slightly larger default padding */
+  padding-right: 1.25em; /* keep symmetrical by default */
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
@@ -19,8 +19,9 @@
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
-    @include pre(2.5 of 12); /* ensure space for fixed left sidebar */
-  }
+    @include prefix(0.5 of 12);
+    @include suffix(2 of 12);
+    }
 
   .page__inner-wrap {
     @include full();
